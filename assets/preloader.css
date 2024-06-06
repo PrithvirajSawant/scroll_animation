@@ -1,0 +1,71 @@
+#pre_loder{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    /* background: #000000 url(/assets/loader2.gif) no-repeat center center; */
+    background: #ffffff;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    /* z-index: 1; */
+    /* display: none; */
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: fit-content;
+    font-weight: bold;
+    font-family: monospace;
+    white-space: pre;
+    font-size: 30px;
+    line-height: 1.2em;
+    height:1.2em;
+    overflow: hidden;
+    color: aliceblue;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 50vh;
+    
+  }
+  .loader:before {
+    content:"Loading...\A⌰oading...\A⌰⍜ading...\A⌰⍜⏃ding...\A⌰⍜⏃⎅ing...\A⌰⍜⏃⎅⟟ng...\A⌰⍜⏃⎅⟟⋏g...\A⌰⍜⏃⎅⟟⋏☌...\A⌰⍜⏃⎅⟟⋏☌⟒..\A⌰⍜⏃⎅⟟⋏☌⟒⏁.\A⌰⍜⏃⎅⟟⋏☌⟒⏁⋔"; 
+    white-space: pre;
+    display: inline-block;
+    animation: l39 1s infinite steps(11) alternate;
+  }
+  
+  @keyframes l39 {
+    100%{transform: translateY(-100%)}
+  }
+
+  /* HTML: <div class="loader"></div> */
+.loader2 {
+    display: inline-grid;
+  }
+  .loader2:before,
+  .loader2:after {
+    content: "";
+    height: 27px;
+    aspect-ratio: 5;
+    --c: #f5f7f7 90deg,#100f0f00 0;
+    background:
+     conic-gradient(from 135deg at top   ,var(--c)),
+     conic-gradient(from -45deg at bottom,var(--c)) 12.5% 100%;
+    background-size: 20% 50%;
+    background-repeat: repeat-x;
+    clip-path: inset(0 50%);
+    animation: l20 1s infinite steps(5) alternate;
+  }
+  .loader2:after {
+    animation-delay: -1s;
+  }
+  @keyframes l20{
+    90%,to {clip-path: inset(0)}
+  }
+
+  #loader3{
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 300px;
+    color: #f5f7f7;
+  }
