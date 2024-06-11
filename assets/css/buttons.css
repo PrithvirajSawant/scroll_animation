@@ -180,7 +180,7 @@ main#app {
     display: flex;
     justify-content: center;
     align-items: center;
-    height:160%;
+    height:180%;
     width: 100%;
     /* border: 2px solid red; */
     border-radius: 50%;
@@ -192,7 +192,7 @@ main#app {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff;
+    background-color: rgb(230, 230, 230);
     height: 80%;
     width: 80%;
     /* border: 2px solid red; */
@@ -206,3 +206,33 @@ main#app {
     /* border: 2px solid red; */
     border-radius: 50%;
 }
+
+/* buttom custom height */
+.c-1{
+    /* border: 2px solid red; */
+    height: 170%;
+}
+
+.c-2{
+    /* border: 2px solid red; */
+    height: 166%;
+}
+
+.c-3{
+    /* border: 2px solid red; */
+    height: 165%;
+}
+
+.c-4{
+    /* border: 2px solid red; */
+    height: 170%;
+}
+
+.c-5{
+    /* border: 2px solid red; */
+    height: 175%;
+}
+
+
+
+

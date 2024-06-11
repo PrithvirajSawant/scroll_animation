@@ -21,7 +21,7 @@ body {
     /* border: 2px solid red;   */
     height: 100%;
     width: 50%;
-    background-color: rgb(248,248,248);
+    background-color: rgb(255,255,255);
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -88,6 +88,7 @@ body {
 
 /* /////// */
 .scrollable-section {
+    /* border: 2px solid black; */
     height: 100%;
     overflow-y: auto;
     z-index: 1;
@@ -155,30 +156,30 @@ button {
 }
 
 .btn1{
-    height: 415%;
+    height: 350%;
     /* max-height: 435%; */
     /* background-color: #ff0000; */
 }
 
 .btn2{
-    height: 415%;
+    height: 350%;
     /* background-color: #00ff00;   */
 }
 
 .btn3{
-    height: 590%;
+    height: 500%;
     /* background-color: #0000ff; */
     /* margin-bottom: 200px; */
 }
 
 .btn4{
-    height: 745%;
+    height: 645%;
     /* background-color: #ff00ff; */
     /* margin-bottom: 200px; */
 }
 
 .btn5{
-    height: 1025%;
+    height: 905%;
     /* background-color: #ccddaa; */
     /* margin-bottom: 200px; */
 }
@@ -241,7 +242,7 @@ button {
     position:fixed;
     margin-bottom: 45%;
     margin-right: 37.65%;
-    background-color: #ffffff;
+    background-color: rgb(210,210,210);
     /* box-shadow:#000000 ; */
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
     /* animation: bc 3s ease-in-out 1s infinite; */
@@ -260,7 +261,7 @@ button {
     margin-right: 1000px; */
     opacity: 0.5;
     animation: bc 50s linear infinite ;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px 10px;
 }
 
 .img2{
@@ -275,7 +276,7 @@ button {
     margin-right: 1000px; */
     opacity: 0.5;
     animation: bc 50s linear infinite reverse;
-    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 20px 1px;
 }
 
 @keyframes bc {
@@ -458,22 +459,35 @@ button {
     align-items: start;
     font-size: 1.5rem;
     padding: 5%;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5) ;
+    /* background: rgba(0, 0, 0 , 0.1); */
+    background-image: linear-gradient(200deg, rgba(0,0,0,0.4), rgba(255,255,255,0.5));
+    /* background-size: 2% 2%; */
+    /* border-top: 1px solid rgb(255, 255, 255, 0.5);
+    border-left: 1px solid rgb(255, 255, 255, 0.5); */
+    backdrop-filter: blur(10px);
+    /* border-top-right-radius: 20%;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%; */
     /* box-shadow: inset 5px 5px 10px -5px; */
     /* transform: translateX(100%); */
     /* background-color: rgba(0, 0, 0, 0.7); */
     /* background: #000000; */
     /* background-color: rgba(255, 255, 255, 0.5); */
+    z-index: 0;
+    margin-top: -2%;
     
     
 }
 
-.des_col span{
-    border: 2px solid #000000;
+/* .des_col span{ */
+    /* border: 2px solid #000000; */
     /* transform: skew(45deg); */
     /* transform: translateX(120%); */
     /* animation: words 3s ease-in-out 1s 1; */
 
-}
+/* } */
 
 .sec_hide{
     transform: translateX(100%);
