@@ -72,6 +72,7 @@ function toggleButtonsOnScroll() {
     function ani_right(){
         [t1,t2,t3,t4,t5,d1,d2,d3,d4,d5].forEach((td)=>{
             td.style.animation='op_words 3s ease-in-out 1';
+            // td.style.animation = 'none';
         })
     }
 
@@ -90,7 +91,7 @@ function toggleButtonsOnScroll() {
 
         sec1.classList.remove('sec_hide')
         sec1.classList.add('sec_visible');
-
+        
         ani_left();
         t2.style.animation='op_words 3s ease-in-out 1';
         d2.style.animation='op_words 3s ease-in-out 1';

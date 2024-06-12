@@ -13,7 +13,7 @@
     width: 15%;
     /* border-radius: 20%; */
     margin-bottom: 26%;
-    margin-right: 32%;
+    margin-right: 34%;
     /* opacity: 0; */
     /* animation: spinoff 2s ease-in-out 1; */
 }
@@ -78,7 +78,6 @@
     height: 100%;
     width: 100%;
     box-shadow: 0 35px 32px -8px rgb(0, 0, 0, 0.75);
-    /* margin-top: 70%; */
     /* width: 50%; */
 }
 
@@ -89,6 +88,7 @@
     height: 100%;
     width: 100%;
     box-shadow: 0 35px 32px -8px rgb(0, 0, 0, 0.75);
+    
 
 }
 
@@ -101,15 +101,19 @@
     position: absolute;
     opacity: 0;
     transition: all 1s;
+    /* margin-left: -20%; */
+    
     /* background-color: transparent; */
 }
 
 .ch_wrapper{
     /* border: 2px solid black; */
     border-radius: 4%;
-    background: rgba(255, 255, 255 , 0.5);
+    background-image: linear-gradient(-45deg, rgba(255,255,255,0.4), rgba(0,0,0,0.5));
     height: auto;
     width: 100%;
+    backdrop-filter: blur(10px);
+    /* margin-left: -20%; */
 }
 
 .cw4{
