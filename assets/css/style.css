@@ -289,6 +289,16 @@ button {
     box-shadow: 0px 0px 20px 1px;
 }
 
+.food{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
 .img_donut{
     /* border: 2px solid red; */
     border-radius: 50%;
@@ -303,6 +313,47 @@ button {
     backdrop-filter: blur(20px);
 
 }
+
+.img_pizza{
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    margin-left: 21%;
+    margin-bottom: 4%;
+    height: 45%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+    animation: bc 200s linear infinite reverse;
+}
+
+.img_cake{
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    margin-left: 23%;
+    margin-bottom: 5%;
+    height: 45%;
+    /* box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6); */
+    animation: bc 200s linear infinite reverse;
+}
+
+.img_basli{
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    margin-left: 35%;
+    margin-bottom: 6%;
+    /* height: 40%; */
+    /* width: 37%; */
+    animation: bc 200s linear infinite reverse;
+}
+
+.img_pizza3{
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    margin-left: 20%;
+    margin-bottom: 4%;
+    height: 50%;
+    width: 50%;
+    animation: bc 200s linear infinite reverse;
+}
+
 
 @keyframes bc {
     0% {
