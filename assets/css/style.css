@@ -4,7 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Jersey+25&family=Teko:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -242,6 +244,7 @@ button {
 .circle{
     display: flex;
     align-items: center;
+    /* justify-content: start; */
     height: 150%;
     width: 70%;
     /* border:2px solid #000000; */
@@ -253,7 +256,7 @@ button {
     /* box-shadow:#000000 ; */
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
     /* animation: bc 3s ease-in-out 1s infinite; */
-    animation: bc 50s linear infinite reverse;
+    /* animation: bc 50s linear infinite reverse; */
 }
 
 .img1{
@@ -275,7 +278,7 @@ button {
     position:fixed;
     /* border: 2px solid black; */
     border-radius: 50%;
-    z-index:0 ;
+    z-index: 1;
     height:56em;
     width: 56em;
     margin-bottom: 80px;
@@ -284,6 +287,21 @@ button {
     opacity: 0.5;
     animation: bc 50s linear infinite reverse;
     box-shadow: 0px 0px 20px 1px;
+}
+
+.img_donut{
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    margin-left: 36%;
+    /* margin-bottom: 2%;    */
+    /* padding: 10%; */
+    height: 23%;
+    width: 23%;
+    animation: bc 50s linear infinite reverse;
+    box-shadow: 0px 10px 40px -1px;
+    background: transparent ;
+    backdrop-filter: blur(20px);
+
 }
 
 @keyframes bc {
@@ -456,7 +474,7 @@ button {
     display: flex;
     justify-content: start;
     align-items: end;
-    /* margin-bottom: -20%; */
+    margin-bottom: -10%;
 }
 
 /* .c_title1{
@@ -474,17 +492,24 @@ button {
 
 .c_title{
     /* position: relative; */
-    border: 2px solid red;  
+    /* border: 2px solid red;   */
     color: rgba(0, 0, 0, 1);
-    font-size: 5rem; 
+    font-size: 5.5rem; 
     /* font-family: "Teko", sans-serif; */
     /* font-family: "Rubik Maps", system-ui; */
-    font-family: "Jersey 25", sans-serif;
+    /* font-family: "Jersey 25", sans-serif; */
+    /* font-family: "Bebas Neue", sans-serif; */
+    /* font-family: "Exo 2", sans-serif; */
+    /* font-weight: 700; */
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
     /* height: 100%; */
     /* width: 100%; */
 }
 
 .c_title span{
+    display: block;
+    font-weight: 100;
     /* font-size: 5rem; */
     /* font-family: "Chakra Petch", sans-serif; */
     font-size: 4.5rem;
@@ -524,7 +549,8 @@ button {
 
 .des_col{
     /* border: 2px solid yellow; */
-    color: gray;
+    color: rgba(0, 0, 0, 1);
+    text-align: justify;
     border-radius: 3%;
     height: 100%;
     width: 90%;
@@ -532,7 +558,7 @@ button {
     display: flex;
     justify-content: end;
     align-items: start;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 5%;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5) ;
     /* background: rgba(0, 0, 0 , 0.1); */
@@ -552,8 +578,8 @@ button {
     /* background-color: rgba(255, 255, 255, 0.5); */
     z-index: 0;
     margin-top: -0.5%;
-    
-    
+    font-family: "Barlow", sans-serif;
+
 }
 
 /* .des_col span{ */
