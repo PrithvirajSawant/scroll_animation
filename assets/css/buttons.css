@@ -272,6 +272,7 @@ main#app {
 .c-2{
     /* border: 2px solid red; */
     height: 170%;
+    /* width: 95%; */
 }
 
 .c-3{
@@ -295,10 +296,11 @@ main#app {
     background-position: center; 
     background-repeat: no-repeat;
     border-left:3px solid rgba(200, 200, 200, 0.1);
+    /* z-index: 1; */
 }
 
 .c-f2{
-    background-image: url("/assets/img/btn-user-login-5.png");
+    background-image: url("/assets/img/croissants.png");
     /* opacity: 0.5; */
     background-size: cover;
     background-position: center; 
@@ -306,8 +308,9 @@ main#app {
     /* border: 2px solid rebeccapurple; */
     border-left:3px solid rgba(0, 0, 0, 0.1);
     border-top:3px solid rgba(0, 0, 0, 0.1);
-    border-bottom:3px solid rgba(0, 0, 0, 0.1);
-    border-right:3px solid rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border-bottom:1px solid rgba(0, 100, 100, 0.1);
+    /* border-right:0.1px solid rgba(0, 0, 0, 0.1); */
     /* border-top: 1px solid rgba(0, 0, 0, 0.5); */
     
 }
@@ -318,29 +321,45 @@ main#app {
     background-position: center; 
     background-repeat: no-repeat;
     box-shadow: 6px 7px 10px 0px rgba(0, 0, 0, 0.75);
+    z-index: 1;
     /* border: 2px solid rebeccapurple; */
 }
 
 .c-f4{
-    background-image: url("/assets/img/btn-vp-1.png");
+    height: 95%;
+    width: 95%;
+    background-image: url("/assets/img/btn-dish-9.png");
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
+    z-index: 1;
     /* border-bottom:1px solid rgba(0, 0, 0, 0.1); */
-    border-left:3px solid rgba(0, 0, 0, 0.1);
+    /* border-left:3px solid rgba(0, 0, 0, 0.1); */
     /* box-shadow: 6px 7px 10px 0px rgba(0, 0, 0, 0.75); */
     /* border: 2px solid rebeccapurple; */
 }
 
 .c-f5{
-    background-image: url("/assets/img/btn-view-user-2.png");
+    background-image: url("/assets/img/btn-dish-15.png");
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
     border:2px solid rgba(0, 0, 0, 0.1);
     border-top:3px solid rgba(0, 0, 0, 0.1);
+    z-index: 1;
     /* box-shadow: 6px 7px 10px 0px rgba(0, 0, 0, 0.75); */
     /* border: 2px solid rebeccapurple; */
+}
+
+.btn-chop{
+    position: fixed;
+    z-index: 1;
+    transform: rotate(-40deg);
+    height: 60%;
+    /* width: 100%; */
+    /* border: 2px solid red; */
+    margin-left: 30%;
+    margin-bottom: 30%;
 }
 
 .c-2{
