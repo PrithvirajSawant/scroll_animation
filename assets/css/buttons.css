@@ -339,13 +339,38 @@ main#app {
     /* border: 2px solid rebeccapurple; */
 }
 
+.btn-fork{
+    height: 130%;
+    position: fixed;
+    transform: rotate(-180deg);
+    margin-left: 60%;
+    margin-bottom: 35%;
+    z-index: 1;
+}
+
+.btn-knife{
+    height: 90%;
+    position: fixed;
+    transform: rotate(90deg);
+    /* transform: rotateX(130deg); */
+    margin-left: -60%;
+    margin-bottom: 30%;
+    z-index: 1;
+}
+
+.btn-fork-2{
+    position: fixed;
+    transform: rotate(-20deg);
+    margin-left: 50%;
+}
+
 .c-f5{
     background-image: url("/assets/img/btn-dish-15.png");
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
-    border:2px solid rgba(0, 0, 0, 0.1);
-    border-top:3px solid rgba(0, 0, 0, 0.1);
+    border-left:2px solid rgba(0, 0, 0, 0.1);
+    border-top:1px solid rgba(0, 0, 0, 0.1);
     z-index: 1;
     /* box-shadow: 6px 7px 10px 0px rgba(0, 0, 0, 0.75); */
     /* border: 2px solid rebeccapurple; */

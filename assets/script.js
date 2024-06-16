@@ -27,7 +27,7 @@ const txt = document.querySelector('.c_text');
 
 [card1, card2, card3, card4, card5].forEach((cards)=>{
     cards.classList.add('ch_hide');
-}); 
+});     
 
 
 // Function to toggle classes based on scroll direction
@@ -103,6 +103,7 @@ function toggleButtonsOnScroll() {
         card1.classList.add('ch_visible');
         card1.style.animation='spinoff 2s ease-in-out 1';    
         txt.textContent ="Hello World, I'm ⬇";
+
     } else if (scrollPosition >= sectionHeight && scrollPosition < 2 * sectionHeight) {
         // Show button 2
         btn2.classList.remove('hidden');
@@ -125,6 +126,7 @@ function toggleButtonsOnScroll() {
         card2.classList.add('ch_visible');
         card2.style.animation='spinoff 2s ease-in-out 1';
         txt.textContent ="Prithviraj Sawant";
+
     } else if (scrollPosition >= 2 * sectionHeight && scrollPosition < 3 * sectionHeight) {
         // Show button 3
         btn3.classList.remove('hidden');
