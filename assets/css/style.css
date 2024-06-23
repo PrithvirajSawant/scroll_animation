@@ -9,7 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
-    padding: 0;
+    padding: 0; 
     box-sizing: border-box;
 }
 body {
@@ -24,6 +24,7 @@ body {
     /* display: grid; */
     /* grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr; */
+    overflow: hidden;
 }
 
 .container {
@@ -114,6 +115,11 @@ scrollbar-width: none;
 /* .scrollable-section {
 user-select: none;
 } */
+
+.sec_buttons{
+    height: inherit;
+    width: inherit;
+}
 
 button {
     /* height: 100%; */
@@ -241,7 +247,7 @@ button {
     opacity: 1;
 }
 
-.circle{
+.bg-circle{
     display: flex;
     align-items: center;
     /* justify-content: start; */
@@ -289,7 +295,7 @@ button {
     box-shadow: 0px 0px 20px 1px;
 }
 
-.circle .food{
+.bg-circle .food{
     position: fixed;
     display: flex;
 }
@@ -742,5 +748,8 @@ button {
     }
     
 }
+
+
+
 
  

@@ -98,7 +98,7 @@ function toggleButtonsOnScroll() {
 
         // card2.classList.remove('ch_visible');
         // card2.classList.add('ch_hide');
-        card2.style.animation='of_spinoff 2s ease-in-out 1';
+        // card4.style.animation='of_spinoff 2s ease-in-out 1';
         // card1.classList.remove('ch_hide');
         card1.classList.add('ch_visible');
         card1.style.animation='spinoff 2s ease-in-out 1';    
@@ -123,8 +123,8 @@ function toggleButtonsOnScroll() {
         // card1.classList.add('ch_hide');
         // card1.style.animation='of_spinoff 2s ease-in-out 1';
         // card2.classList.remove('ch_hide');
-        card2.classList.add('ch_visible');
-        card2.style.animation='spinoff 2s ease-in-out 1';
+        card4.classList.add('ch_visible');
+        card4.style.animation='spinoff 2s ease-in-out 1';
         txt.textContent ="Prithviraj Sawant";
 
     } else if (scrollPosition >= 2 * sectionHeight && scrollPosition < 3 * sectionHeight) {
@@ -166,8 +166,8 @@ function toggleButtonsOnScroll() {
 
         // card3.style.animation='of_spinoff 2s ease-in-out 1';
         // card2.classList.remove('ch_hide');
-        card4.classList.add('ch_visible');
-        card4.style.animation='spinoff 2s ease-in-out 1';
+        card2.classList.add('ch_visible');
+        card2.style.animation='spinoff 2s ease-in-out 1';
         txt.textContent ="Traditional Artist";
     } else {
         // Show button 5
